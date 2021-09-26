@@ -3,6 +3,7 @@ import './Header.css';
 
 const Header = () => {
 	return (
+		// Header Section
 		<div className="container text-center mb-5 header-bg">
 			<h1 className="fw-bold pt-3 shadow-text">The Top Tech Billioniers Club</h1>
 			<p className="text-start fs-5">

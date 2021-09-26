@@ -1,13 +1,14 @@
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-
 import './Member.css';
 
 const Member = (props) => {
+	// Destructuring data
 	const { name, gender, country, netWorth, sorceOfWealth, img } = props.member;
 	const iFaUser = <FontAwesomeIcon icon={faUser} />;
 	return (
+		// Make card with json data
 		<div className="col-md-4">
 			<div className="card mb-4">
 				<img src={img} className="card-img-top" alt="!" />
@@ -28,6 +29,7 @@ const Member = (props) => {
 						Source of income : <span className="fw-bold">{sorceOfWealth}</span>
 					</li>
 					<li className="list-group-item">
+						{/* Pass data through function */}
 						<button className="btn w-100 btn-dark bg-pink" onClick={() => props.handleMember(props.member)}>
 							{iFaUser} Add This person
 						</button>
