@@ -11,7 +11,8 @@ const TotalWorth = (props) => {
 	return (
 		<div>
 			<h6>
-				Total worth of selected members: <span className="text-color fw-bolder fs-4">${total}</span>
+				Total worth of selected members:{' '}
+				<span className="text-color fw-bolder fs-4">${total} Billion Dollar</span>
 			</h6>
 			{/* Display man from selected */}
 			{persons.map((person) => <SelectedPerson key={person.id} person={person} />)}

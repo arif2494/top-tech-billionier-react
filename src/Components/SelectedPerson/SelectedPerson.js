@@ -7,7 +7,7 @@ const SelectedPerson = (props) => {
 		<div className="d-flex align-items-center gap-3  selected-person">
 			<img src={img} className="selected-img" alt="!" />
 			<h5>{name}</h5>
-			<h5>${netWorth}</h5>
+			<h5>${netWorth} B</h5>
 		</div>
 	);
 };
