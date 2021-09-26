@@ -22,7 +22,7 @@ const Member = (props) => {
 						Country : <span className="fw-bold">{country}</span>
 					</li>
 					<li className="list-group-item bg-pink">
-						Money : <span className="fw-bold">${netWorth}</span>
+						Money : <span className="fw-bold">${netWorth} Billion Dollar</span>
 					</li>
 					<li className="list-group-item bg-pink">
 						Source of income : <span className="fw-bold">{sorceOfWealth}</span>
