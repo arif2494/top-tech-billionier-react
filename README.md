@@ -6,11 +6,11 @@ This project in live on [Click to See The Billioniers Club](https://top-tech-bil
 
 In this website you can see :
 
-** 1. The top 15 Tech Billioniers in the World **
-** 2. Their net money **
-** 3. Their source of income **
-** 3. Which country they are from **
-** 4. And also their gender **
+ 1. The top 15 Tech Billioniers in the World 
+ 2. Their net money 
+ 3. Their source of income 
+ 3. Which country they are from 
+ 4. And also their gender 
 
 ### `Calculation`
 
