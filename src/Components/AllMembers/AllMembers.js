@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Member from '../Member/Member';
 import TotalWorth from '../TotalWorth/TotalWorth';
+import './AllMembers.css';
 
 const AllMembers = () => {
 	const [ members, setMembers ] = useState([]);
@@ -22,7 +23,7 @@ const AllMembers = () => {
 						))}
 					</div>
 				</div>
-				<div className="col-md-3">
+				<div className="col-md-3 ">
 					<h3>
 						Total Person Added: <span className="text-color">{selectedMember.length}</span>
 					</h3>
