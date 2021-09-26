@@ -1,0 +1,11 @@
+.selected-person {
+	border: 2px solid rgb(75, 75, 75);
+	border-radius: 10px;
+	margin-bottom: 15px;
+	padding: 5px;
+	box-shadow: 9px 13px 21px -12px rgba(0, 0, 0, 0.78);
+}
+.selected-img {
+	height: 80px;
+	border-radius: 50%;
+}

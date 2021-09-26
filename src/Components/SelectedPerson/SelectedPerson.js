@@ -1,13 +1,12 @@
 import React from 'react';
-
+import './SelectedPerson.css';
 const SelectedPerson = (props) => {
-	const { name, netWorth, sorceOfWealth, img } = props.person;
+	const { name, netWorth, img } = props.person;
 	return (
-		<div className="d-flex">
-			<img src={img} alt="!" />
+		<div className="d-flex align-items-center gap-3  selected-person">
+			<img src={img} className="selected-img" alt="!" />
 			<h5>{name}</h5>
-			<p>{netWorth}</p>
-			<p>{sorceOfWealth}</p>
+			<h5>${netWorth}</h5>
 		</div>
 	);
 };

@@ -23,7 +23,9 @@ const AllMembers = () => {
 					</div>
 				</div>
 				<div className="col-md-3">
-					<h3>Total Person Added:{selectedMember.length}</h3>
+					<h3>
+						Total Person Added: <span className="text-color">{selectedMember.length}</span>
+					</h3>
 					<TotalWorth selectedMember={selectedMember} />
 				</div>
 			</div>

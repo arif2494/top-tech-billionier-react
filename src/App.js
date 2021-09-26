@@ -5,7 +5,7 @@ import AllMembers from './Components/AllMembers/AllMembers';
 
 function App() {
 	return (
-		<div>
+		<div className="bg-img">
 			<Header />
 			<AllMembers />
 		</div>
